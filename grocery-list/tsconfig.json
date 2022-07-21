@@ -1,5 +1,12 @@
 {
+  // path alias to make it easier to work with relative paths:
   "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*":[
+        "src/*"
+      ],
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
