@@ -58,3 +58,5 @@ export const serverRouter = trpc
     });
 
 export type ServerRouter = typeof serverRouter;
+
+// with our router configured it is now time to create the API route
