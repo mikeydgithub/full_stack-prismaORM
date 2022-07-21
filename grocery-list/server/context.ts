@@ -15,6 +15,7 @@ import { PrismaClient } from "@prisma/client";
 // : an endpoint is called a procedure;
 // a procedure can have two types of operations(query and mutation);
 // queries are responsible for fetching data, while mutations are responsible for making changes to the data (server-side)
+// we can now define our router
 export async function createContext(opts?: trpcNext.CreateNextContextOptions){
     const prisma = new PrismaClient();
 
